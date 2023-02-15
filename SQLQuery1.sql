@@ -15,3 +15,9 @@ insert into Address_Book values
 ('Vikram', 'Pawar', 'Vaduj', 'Pune', 'Rahsthan', 222333,9011973823, 'viki12@gmail.com'),
 ('Ranjit', 'More', 'Phaltan', 'Mumbai', 'Goa', 333444, 4545676732, 'ranjit43@gmail.com'),
 ('Rohit', 'Chavan', 'Baramati', 'Nashik', 'Nepal', 444555, 8973124680, 'Ro45@gmail.com')
+--Display Table
+select * from Address_Book
+
+--UC4 Edit Person Details using Name
+
+update Address_Book set Address = 'Udaypur' where FirstName = 'Vikram'
