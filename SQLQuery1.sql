@@ -60,4 +60,13 @@ select Count(*) as N0_of_Contacts,Contact_Type
 from  Address_Book
 Group by Contact_Type
 
+--UC11 Ability to add person to both Friend and Family
+
+INSERT INTO Address_Book(FirstName,LastName,Address,City,State,ZipCode,PhoneNumber,EMailId,Contact_Type) VALUES ('Poonam','Sharma','Agra','Delhi','India',400011,'96343456','poo324@gmail.com','Family');
+
+INSERT INTO Address_Book(FirstName,LastName,Address,City,State,ZipCode,PhoneNumber,EMailId,Contact_Type) VALUES ('Nilam','Nikam','Agra','Delhi','India',400032,'96443456','nilam324@gmail.com','Friends');
+
+
+
+
 
