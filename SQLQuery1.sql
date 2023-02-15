@@ -40,16 +40,6 @@ select * from Address_Book where state = 'Karnataka' Order By FirstName
 
 --UC9 Ability to identify each Address Book with name and Type
 
-alter table Address_Book
-add Book_Name VARCHAR(20),
-Contact_Type VARCHAR(20)
-update Address_Book set type = 'Profession' where FirstName='Rutuja'
-update Address_Book set type = 'Friend' where FirstName='Parnika'
-update Address_Book set type = 'Family' where FirstName='Sunil'
-update Address_Book set type = 'Friend' where FirstName='Bindhu'
-update Address_Book set type = 'Profession' where FirstName='Anamika'
-
-
 select * from Address_Book
 alter table Address_Book 
 add Book_Name VARCHAR(20),
