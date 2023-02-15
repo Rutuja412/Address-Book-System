@@ -25,3 +25,11 @@ update Address_Book set Address = 'Udaypur' where FirstName = 'Vikram'
 --UC5 Delete record using Name
 
 delete from Address_Book where FirstName = 'Ranjit'
+
+--UC6 Revtive person details using state or city name 
+
+select * from Address_Book where city = 'Pune' or state = 'Rahsthan'
+
+--UC7 Size of Address Book
+
+select Count(*) as Size_Of_Address_Book from Address_Book
