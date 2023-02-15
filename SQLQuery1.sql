@@ -21,3 +21,7 @@ select * from Address_Book
 --UC4 Edit Person Details using Name
 
 update Address_Book set Address = 'Udaypur' where FirstName = 'Vikram'
+
+--UC5 Delete record using Name
+
+delete from Address_Book where FirstName = 'Ranjit'
